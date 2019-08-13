@@ -14,15 +14,22 @@
   <body>
       
    
-    <section class="sec1"></section>
+    <section class="sec1"> 
+      <div class="row">
+        <div class="col-md-12 offset-5"><img src="./imagenes/logo.png" alt="" width="250" heigth="250" class="grayscale"></div> 
+        <div class="col-md-2 offset-3"><h1><a href="#projects" style="color:black">Projects</a></div>
+        <div class="col-md-2 offset"><h1><a href="#about"style="color:black">About</a></h1></div>
+        <div class="col-md-2 offset"><h1><a href="#contac"style="color:black">Contact</a></div>
+      </div>
+    </section>
     <section class="secText">
-        <h1>Proyects</h1>
-        <div>
+        <h1 id="projects">Proyects</h1>
+        <div class="mural">
           
-            <div class="row" >
-                <div class="col-md-4"><img src="./imagenes/imagen2.jpg" alt="" width="250" heigth="250"></div>
+            <div class="row">
+                <div class="col-md-4 "><img src="./imagenes/imagen2.jpg" alt="" width="250" heigth="250"></div>
                 <div class="col-md-4"><img src="./imagenes/imagen3.jpg" alt="" width="250" heigth="250"></div>
-                <div class="col-md-4"><img src="./imagenes/imagen4.jpg" alt="" width="250" heigth="250"></div>
+                <div class="col-md-4"><img src="./imagenes/imagen4.jpg" alt="" width="200" heigth="250"></div>
 
             </div>
 
@@ -44,7 +51,7 @@
     </section>
     <section class="sec2"></section>
     <section class="secText">
-        <h1>About.</h1>
+        <h1 id="about">About.</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptates consequuntur mollitia expedita esse similique enim quam exercitationem ipsa, nesciunt doloremque dicta ratione dolor consequatur?</p>
     </section>
     <section class="sec3"></section>
@@ -52,7 +59,7 @@
 
         <div class="tab-pane active" id="one">
             <div class="row offset-3">
-                 <h1 class="col-4">Contact</h1>
+                 <h1 class="col-4" id="contac">Contact</h1>
   
            <div class="col-12">
         <div class="form-row align-items-center">
@@ -108,12 +115,12 @@
       </div>
     </div>
     
-
-
-
   </div>
           </div>
     </section>
+    <nav class="navbar fixed-bottom navbar-dark  md-dark" id="bottom">
+        <p class="navbar-brand" >© 2023 by Urban Artist. Proudly created with Wix.com</p>
+    </nav>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
