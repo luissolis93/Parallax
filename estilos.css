@@ -34,8 +34,10 @@ section{
     padding: 0;
     font-size: 48px;
     color: brown;
+    text-align: center;
 }
 
 .secText p{
     font-size: 18px;
+    text-align: center;
 }
