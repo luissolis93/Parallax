@@ -52,3 +52,24 @@ section{
     font-size: 18px;
     text-align: center;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+#img1{
+    padding: 50px 100px;
+}
+
+#img2{
+    padding: 50px 100px;
+}
+
+#img3{
+    padding: 50px 100px;
+}
+
+#icono{
+    font-size: 125px;
+    padding: 150px 10px;
+}
