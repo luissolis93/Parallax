@@ -1,4 +1,6 @@
 body{
+    width: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -57,6 +59,13 @@ html{
     scroll-behavior: smooth;
 }
 
+#menu{
+    justify-content: center;
+   
+}
+
+
+
 #img1{
     padding: 50px 100px;
 }
@@ -71,5 +80,33 @@ html{
 
 #icono{
     font-size: 125px;
-    padding: 150px 10px;
+    padding: 125px 85px;
+}
+
+.imagenDiv{
+    position: relative;
+}
+.imagenDiv span{
+    position: absolute;
+    top: calc( 50% - (24px / 2));
+    left: calc(50% - (70.59px / 2) );
+    display: none;
+}
+
+
+.imagenDiv img{
+    width: 100%;
+}
+
+.txt{
+    color: white;
+}
+
+.imagenDiv:hover{
+    opacity:.5
+
+}
+
+.imagenDiv:hover span{
+    display: block;
 }
